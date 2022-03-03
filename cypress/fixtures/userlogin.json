@@ -1,0 +1,19 @@
+{
+  "test": "test",
+  "test1": "test1",
+  "adminEmail": "admin@thehivevolvo.com",
+  "adminPassword": "Y:7UBMu'y.:rF*HW",
+  "wrongEmail": "majlindajaha@hotmail",
+  "addUser": "majlindajaha+39@hotmail.com",
+  "password": "00000001",
+  "requiredPassword": "Password is required",
+  "confirmPasswordRequired": "Confirm Password is required",
+  "requiredEmail": "Email is required",
+  "isEmailValide": "Must be a valid email",
+  "wrongCredentialt": "Wrong credentials",
+  "requiredName": "Name is required",
+  "roleIsRequired": "Roles field must have at least 1 items",
+  "alertUserUpdated": "User was updated successfully!",
+  "alertUserCreated": "User was created successfully!",
+  "alertUserDeleted": "User was deleted successfully!"
+}

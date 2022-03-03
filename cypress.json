@@ -1,0 +1,13 @@
+{
+  "env":{
+    "url":"",
+    "email": "",
+    "password": ""
+  },
+  "viewportWidth": 1500,
+  "viewportHeight": 600,
+  "retries": {
+    "runMode": 2,
+    "openMode": 1
+  }  
+}

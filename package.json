@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "cypress": "^9.5.0"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8"
+  }
+}
