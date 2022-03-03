@@ -4,10 +4,7 @@ on:
    pull_request:
        branches:
             -master
- env:
-          url: https://admin-staging.thehivevolvo.com
-          email: rozi@appstellar.io
-          password: 12345678
+
 jobs:
  cypress-run:
     runs-on: ubuntu-latest
@@ -22,4 +19,8 @@ jobs:
         run: npm install       
       - name: Cypress run
         uses: cypress-io/github-action@v2
+        env:
+         url: ${{secrets.URL}}
+         username: ${{secrets.USERNAME}}
+         password: ${{secrets.PASSWORD}}
         
