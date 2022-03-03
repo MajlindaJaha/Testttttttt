@@ -20,7 +20,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2
         env:
-         url: ${{secrets.URL}}
-         username: ${{secrets.USERNAME}}
-         password: ${{secrets.PASSWORD}}
+         CYPRESS_url: ${{secrets.URL}}
+         CYPRESS_username: ${{secrets.USERNAME}}
+         CYPRESS_password: ${{secrets.PASSWORD}}
         
